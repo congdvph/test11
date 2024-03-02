@@ -1,0 +1,49 @@
+<div class="card mt-5 container">
+  <h1 class="card-header">{{ title }}</h1>
+  <div class="card-body">
+    <form ng-submit="addFlight()">
+      <label for="" class="form-label">Name:</label>
+      <input type="text" class="form-control" ng-model="flight.name" disabled />
+
+      <label for="" class="form-label">Price</label>
+      <input
+        type="text"
+        class="form-control"
+        ng-model="flight.price"
+        disabled
+      />
+
+      <label for="" class="form-label">Detail</label>
+      <input
+        type="text"
+        class="form-control"
+        ng-model="flight.detail"
+        disabled
+      />
+
+      <label for="" class="form-label">Seat:</label>
+      <input type="text" class="form-control" ng-model="flight.seat" disabled />
+
+      <label for="" class="form-label">Duration:</label>
+      <input
+        type="text"
+        class="form-control"
+        ng-model="flight.duration"
+        disabled
+      />
+
+      <label for="" class="form-label">Destination:</label>
+      <input
+        type="text"
+        class="form-control"
+        ng-model="flight.destination"
+        disabled
+      />
+      <div class="text-center mt-3">
+        <a href="#!/flight-hotel">
+          <button class="btn btn-success">Quay lại</button>
+        </a>
+      </div>
+    </form>
+  </div>
+</div>

@@ -1,0 +1,54 @@
+{
+  "flightHotel": [
+    {
+      "name": "Atlantic City",
+      "price": "128 USD",
+      "detail": "from Atlanta, 23 February 2024, 3 nights",
+      "img": "img/flightHotel/01.jpg",
+      "id": "64fe",
+      "seat": 200,
+      "duration": "3 hour",
+      "destination": "HCM"
+    },
+    {
+      "name": "Atlantic City",
+      "price": "221 USD",
+      "detail": "from Atlanta, 23 February 2024, 3 nights",
+      "img": "img/flightHotel/02.jpg",
+      "id": "64fdse",
+      "seat": 200,
+      "duration": "3 hour",
+      "destination": "HCM"
+    },
+    {
+      "name": "Atlantic City",
+      "price": "400 USD",
+      "detail": "from Atlanta, 23 February 2024, 3 nights",
+      "img": "img/flightHotel/03.jpg",
+      "id": "64fe54",
+      "seat": 200,
+      "duration": "3 hour",
+      "destination": "HCM"
+    },
+    {
+      "name": "Atlantic City",
+      "price": "80 USD",
+      "detail": "from Atlanta, 23 February 2024, 3 nights",
+      "img": "img/flightHotel/04.jpg",
+      "id": "848e",
+      "seat": 200,
+      "duration": "3 hour",
+      "destination": "HCM"
+    },
+    {
+      "name": "đ",
+      "price": "đ",
+      "detail": "d",
+      "img": "img/flightHotel/04.jpg",
+      "seat": "d",
+      "duration": "d",
+      "destination": "frerferfew",
+      "id": "7930"
+    }
+  ]
+}

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
+    <script src="libs/angular.min.js"></script>
+    <script src="libs/angular-route.js"></script>
+    <title>Trang chủ</title>
+  </head>
+  <body ng-app="appRoute">
+    <!-- nav -->
+    <div class="container mt-5">
+      <main ng-view></main>
+    </div>
+    <!-- <script src="./controller/ListStudentController.js"></script>
+    <script src="./controller/AddStudentController.js"></script>
+    <script src="./controller/DetailStudentController.js"></script>
+    <script src="./controller/EditStudentController.js"></script> -->
+    <!-- <script src="controllers/addFlightController.js"></script>
+    <script src="controllers/detailFlightHotelController.js"></script>
+    <script src="controllers/updateFlightHotelController.js"></script> -->
+    <script src="controller/listNhanVien.js"></script>
+    <script src="controller/addNhanVien.js"></script>
+    <script src="controller/detailNhanVien.js"></script>
+    <script src="controller/updateNhanVien.js"></script>
+
+    <script>
+      let myApp = angular.module("appRoute", ["ngRoute"]);
+      myApp.config(function ($routeProvider) {
+        $routeProvider
+          .when("/", {
+            templateUrl: "views/listNhanVien.html",
+            controller: listNhanVien,
+          })
+          .when("/detail/employee/:id", {
+            templateUrl: "views/detailNhanVien.html",
+            controller: detailNhanVien,
+          })
+          .when("/update/employee/:id", {
+            templateUrl: "views/updateNhanVien.html",
+            controller: updateNhanVien,
+          });
+      });
+    </script>
+  </body>
+</html>

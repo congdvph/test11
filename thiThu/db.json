@@ -1,0 +1,20 @@
+{
+  "nhanVien": [
+    {
+      "id": "12554",
+      "hoTen": "đỗ văn công",
+      "sdt": "054458748",
+      "email": "congdvph313157",
+      "chucVu": "Trưởng phòng",
+      "ngaySinh": "12/09/2002"
+    },
+    {
+      "id": "102",
+      "hoTen": "đỗ văn chiến",
+      "sdt": "0541848",
+      "email": "chiendvph313157",
+      "chucVu": "Nhân viên",
+      "ngaySinh": "12/09/2002"
+    }
+  ]
+}

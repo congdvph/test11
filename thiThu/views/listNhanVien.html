@@ -1,0 +1,39 @@
+<div>
+  <a href="#!/employee/add" class="mb-3">
+    <button class="btn btn-warning">Thêm nhân viên</button>
+  </a>
+  <table class="table">
+    <thead>
+      <tr>
+        <th scope="col">Id</th>
+        <th scope="col">Họ tên</th>
+        <th scope="col">Số điện thoại</th>
+        <th scope="col">Email</th>
+        <th scope="col">Chức vụ</th>
+        <th scope="col">Ngày sinh</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr ng-repeat="item in listNhanVien">
+        <td>{{item.id}}</td>
+        <td>{{item.hoTen}}</td>
+        <td>{{item.email}}</td>
+        <td>{{item.sdt}}</td>
+        <td>{{item.chucVu}}</td>
+        <td>{{item.ngaySinh}}</td>
+        <td></td>
+        <td>
+          <a href="#!/detail/employee/{{item.id}}">
+            <button class="btn bg-warning">Chi tiết</button>
+          </a>
+          <button class="btn bg-danger" ng-click="deleteNhanVien(item.id)">
+            Xóa
+          </button>
+          <a href="#!/update/employee/{{item.id}}">
+            <button class="btn bg-success">Sửa</button>
+          </a>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>

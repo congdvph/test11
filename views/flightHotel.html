@@ -1,0 +1,49 @@
+<div>
+  <div class="content mb-5">
+    <div class="container-sm px-5">
+      <div class="title py-5 d-flex justify-content-between align-items-center">
+        <h1 class="fw-bold fs-2">Plan and grab the best deals</h1>
+        <a href="#!/add-new">
+          <button class="btn btn-success">Add New</button>
+        </a>
+      </div>
+      <div class="content-img">
+        <div class="row g-3 mb-3 d-flex align-items-center text-left">
+          <div class="col-md-4 col-sm-12" ng-repeat="item in listFlightHotel">
+            <div class="item shadow">
+              <img class="rounded" src="{{item.img}}" alt="" />
+              <div class="item-content text-white" style="padding-left: 15px">
+                <p class="city fw-bold fs-5 mb-0">{{item.name}}</p>
+                <p class="city mb-0">
+                  <span class="fw-bold fs-5 me-2">{{item.price}}</span>
+                  <span class="fw-bold fs-8">Flight+Hotel</span>
+                </p>
+                <p class="fw-bold">{{item.detail}}</p>
+                <div class="row mb-4">
+                  <div class="col-md-3">
+                    <button
+                      class="btn btn-danger"
+                      ng-click="deleteFlightHotel(item.id)"
+                    >
+                      Delete
+                    </button>
+                  </div>
+                  <div class="col-md-3">
+                    <a href="#!/detail-flight/{{item.id}}">
+                      <button class="btn btn-warning">Detail</button>
+                    </a>
+                  </div>
+                  <div class="col-md-3">
+                    <a href="#!/update-flight/{{item.id}}">
+                      <button class="btn btn-secondary">Update</button>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

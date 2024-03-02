@@ -1,0 +1,45 @@
+<div>
+  <h2>{{title}}</h2>
+  <form ng-submit="addNhanVien()">
+    <div class="mb-3">
+      <label for="exampleInputEmail1" class="form-label">Họ tên</label>
+      <input class="form-control" ng-model="nhanVien.hoTen" disabled />
+    </div>
+    <div class="mb-3">
+      <label class="form-label">Số điện thoại</label>
+      <input
+        type="text"
+        class="form-control"
+        ng-model="nhanVien.sdt"
+        disabled
+      />
+    </div>
+    <div class="mb-3">
+      <label class="form-label">Email</label>
+      <input
+        type="text"
+        class="form-control"
+        ng-model="nhanVien.email"
+        disabled
+      />
+    </div>
+    <div class="mb-3">
+      <label class="form-label">Chức vụ</label>
+      <select ng-model="nhanVien.chucVu" class="form-control" disabled>
+        <option value="Nhân viên">Nhân viên</option>
+        <option value="Trưởng phòng">Trưởng phòng</option>
+        <option value="Giám đốc">Giám đốc</option>
+      </select>
+    </div>
+    <div class="mb-3">
+      <label class="form-label">Ngày sinh</label>
+      <input
+        type="text"
+        class="form-control"
+        ng-model="nhanVien.ngaySinh"
+        disabled
+      />
+    </div>
+    <button type="submit" class="btn btn-primary">Submit</button>
+  </form>
+</div>

@@ -1,0 +1,460 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
+    <script src="angularjs/libs/angular.min.js"></script>
+    <script src="angularjs/libs/angular-route.js"></script>
+    <title>Trang chủ</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="style1.css">
+  </head>
+  <body ng-app="appRoute">
+    <!-- nav -->
+    <nav
+      class="navbar small navbar-expand-md d-inline-flex align-items-center fixed-top"
+      style="background-color: rgba(45, 43, 43, 0.089)"
+    >
+      <div class="container-lg">
+        <a
+          class="navbar-brand text-white d-inline-flex align-items-center"
+          href="#!/trang-chu"
+        >
+          <img src="img/sprite_footer (2).png" class="me-2" alt="" />
+          <span class="fw-bold fs-2"> Sky</span><span>.com</span></a
+        >
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarID"
+          aria-controls="navbarID"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div
+          class="collapse navbar-collapse justify-content-between"
+          id="navbarID"
+        >
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a
+                class="nav-link active text-white fs-6 me-2"
+                aria-current="page"
+                href="#!/flight-hotel"
+                >Flight-Hotel</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white fs-6 me-2" aria-current="page" href="#!/booking"
+                >Booking</a
+              >
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link text-white fs-6 me-2"
+                aria-current="page"
+                href="#!/booking"
+                >City Break</a
+              >
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link text-white fs-6 me-2"
+                aria-current="page"
+                href="#"
+                >Vacations</a
+              >
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link text-white fs-6 me-2"
+                aria-current="page"
+                href="#"
+                >Stays</a
+              >
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link text-white fs-6 me-2"
+                aria-current="page"
+                href="#"
+                >Cars</a
+              >
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link text-white fs-6 me-2"
+                aria-current="page"
+                href="#"
+                >Deals</a
+              >
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link text-white fs-6 me-2"
+                aria-current="page"
+                href="#"
+                >Insurance</a
+              >
+            </li>
+          </ul>
+          <div
+            class="navbar-nav text-white fs-6 d-inline-flex align-items-center"
+          >
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="16"
+              height="16"
+              fill="currentColor"
+              class="bi bi-box-arrow-in-right me-2"
+              viewBox="0 0 16 16"
+            >
+              <path
+                fill-rule="evenodd"
+                d="M6 3.5a.5.5 0 0 1 .5-.5h8a.5.5 0 0 1 .5.5v9a.5.5 0 0 1-.5.5h-8a.5.5 0 0 1-.5-.5v-2a.5.5 0 0 0-1 0v2A1.5 1.5 0 0 0 6.5 14h8a1.5 1.5 0 0 0 1.5-1.5v-9A1.5 1.5 0 0 0 14.5 2h-8A1.5 1.5 0 0 0 5 3.5v2a.5.5 0 0 0 1 0z"
+              />
+              <path
+                fill-rule="evenodd"
+                d="M11.854 8.354a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5H1.5a.5.5 0 0 0 0 1h8.793l-2.147 2.146a.5.5 0 0 0 .708.708z"
+              />
+            </svg>
+            Log in
+          </div>
+        </div>
+      </div>
+    </nav>
+    <div class="background-image">
+      <div class="container-fluid py-5" style="height: 30rem">
+        <div
+          class="row d-flex align-items-center justify-content-center text-center"
+        >
+          <div class="col-md-6 text-white fw-bold mt-4">
+            <h3 class="fw-bold fs-2 m-5">
+              Flight tickets, hotels, car rentals...<br />
+              Explore city break your way
+            </h3>
+          </div>
+        </div>
+
+        <div
+          class="row d-flex align-items-center justify-content-center text-center"
+        >
+          <div class="col-md-6 text-white fw-bold"></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- nav -->
+    <!-- banner -->
+
+    <!-- banner -->
+    <!-- detail -->
+    <div class="detail small py-3 px-5 border-bottom">
+      <div class="container">
+        <div class="row-9 d-flex justify-content-center">
+          <div class="col-lg-2 col-4 d-flex align-items-center">
+            <div class="detail-img">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="30"
+                height="30"
+                fill="currentColor"
+                class="bi bi-geo-alt me-2"
+                viewBox="0 0 16 16"
+              >
+                <path
+                  d="M12.166 8.94c-.524 1.062-1.234 2.12-1.96 3.07A32 32 0 0 1 8 14.58a32 32 0 0 1-2.206-2.57c-.726-.95-1.436-2.008-1.96-3.07C3.304 7.867 3 6.862 3 6a5 5 0 0 1 10 0c0 .862-.305 1.867-.834 2.94M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10"
+                />
+                <path
+                  d="M8 8a2 2 0 1 1 0-4 2 2 0 0 1 0 4m0 1a3 3 0 1 0 0-6 3 3 0 0 0 0 6"
+                />
+              </svg>
+            </div>
+            <div class="detail-holder">
+              <p class="fs-7 fw-bold" style="margin-bottom: -1px">
+                ATTRACTION TICKETS
+              </p>
+              <a class="fs-8 text-decoration-none" href="">Beat the queues</a>
+            </div>
+          </div>
+          <div class="col-lg-2 col-4 d-flex align-items-center">
+            <div class="detail-img">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="30"
+                height="30"
+                fill="currentColor"
+                class="bi bi-umbrella me-2"
+                viewBox="0 0 16 16"
+              >
+                <path
+                  d="M8 0a.5.5 0 0 1 .5.5v.514C12.625 1.238 16 4.22 16 8c0 0 0 .5-.5.5-.149 0-.352-.145-.352-.145l-.004-.004-.025-.023a3.5 3.5 0 0 0-.555-.394A3.17 3.17 0 0 0 13 7.5c-.638 0-1.178.213-1.564.434a3.5 3.5 0 0 0-.555.394l-.025.023-.003.003s-.204.146-.353.146-.352-.145-.352-.145l-.004-.004-.025-.023a3.5 3.5 0 0 0-.555-.394 3.3 3.3 0 0 0-1.064-.39V13.5H8h.5v.039l-.005.083a3 3 0 0 1-.298 1.102 2.26 2.26 0 0 1-.763.88C7.06 15.851 6.587 16 6 16s-1.061-.148-1.434-.396a2.26 2.26 0 0 1-.763-.88 3 3 0 0 1-.302-1.185v-.025l-.001-.009v-.003s0-.002.5-.002h-.5V13a.5.5 0 0 1 1 0v.506l.003.044a2 2 0 0 0 .195.726c.095.191.23.367.423.495.19.127.466.229.879.229s.689-.102.879-.229c.193-.128.328-.304.424-.495a2 2 0 0 0 .197-.77V7.544a3.3 3.3 0 0 0-1.064.39 3.5 3.5 0 0 0-.58.417l-.004.004S5.65 8.5 5.5 8.5s-.352-.145-.352-.145l-.004-.004a3.5 3.5 0 0 0-.58-.417A3.17 3.17 0 0 0 3 7.5c-.638 0-1.177.213-1.564.434a3.5 3.5 0 0 0-.58.417l-.004.004S.65 8.5.5 8.5C0 8.5 0 8 0 8c0-3.78 3.375-6.762 7.5-6.986V.5A.5.5 0 0 1 8 0M6.577 2.123c-2.833.5-4.99 2.458-5.474 4.854A4.1 4.1 0 0 1 3 6.5c.806 0 1.48.25 1.962.511a9.7 9.7 0 0 1 .344-2.358c.242-.868.64-1.765 1.271-2.53m-.615 4.93A4.16 4.16 0 0 1 8 6.5a4.16 4.16 0 0 1 2.038.553 8.7 8.7 0 0 0-.307-2.13C9.434 3.858 8.898 2.83 8 2.117c-.898.712-1.434 1.74-1.731 2.804a8.7 8.7 0 0 0-.307 2.131zm3.46-4.93c.631.765 1.03 1.662 1.272 2.53.233.833.328 1.66.344 2.358A4.14 4.14 0 0 1 13 6.5c.77 0 1.42.23 1.897.477-.484-2.396-2.641-4.355-5.474-4.854z"
+                />
+              </svg>
+            </div>
+            <div class="detail-holder">
+              <p class="fs-7 fw-bold" style="margin-bottom: -1px">
+                TRAVEL INSURANCE
+              </p>
+              <a class="fs-8 text-decoration-none" href=""
+                >Peace of mind for you</a
+              >
+            </div>
+          </div>
+          <div
+            class="col-md-2 d-inline-flex align-items-center d-lg-block d-none"
+          >
+            <div class="d-flex">
+              <div class="detail-img">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="30"
+                  height="30"
+                  fill="currentColor"
+                  class="bi bi-person-circle me-2 d-inline-flex"
+                  viewBox="0 0 16 16"
+                >
+                  <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0" />
+                  <path
+                    fill-rule="evenodd"
+                    d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8m8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1"
+                  />
+                </svg>
+              </div>
+              <div class="detail-holder">
+                <p class="fs-7 fw-bold" style="margin-bottom: -1px">
+                  MANAGE MY BOOKINGS
+                </p>
+                <a class="fs-8 text-decoration-none" href=""
+                  >Create an eSky account</a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="col-md-2 d-flex align-items-center d-lg-block d-none">
+            <div class="d-flex align-items-center">
+              <div class="detail-img">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="30"
+                  height="30"
+                  fill="currentColor"
+                  class="bi bi-phone me-2"
+                  viewBox="0 0 16 16"
+                >
+                  <path
+                    d="M11 1a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1zM5 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2z"
+                  />
+                  <path d="M8 14a1 1 0 1 0 0-2 1 1 0 0 0 0 2" />
+                </svg>
+              </div>
+              <div class="detail-holder">
+                <p class="fs-7 fw-bold" style="margin-bottom: -1px">
+                  THE BEST MOBILE APP
+                </p>
+                <a class="fs-8 text-decoration-none" href=""
+                  >Download and find deals</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <main ng-view></main>
+    
+      <!-- star -->
+  <div class="star-img" style="height: 200px">
+    <div class="container">
+      <div class="row py-5"></div>
+    </div>
+  </div>
+  <!-- star -->
+  <!-- subscribe -->
+  <div style="height: 400px; background-color: #00164d">
+    <div class="container py-5 d-flex justify-content-center align-items-center">
+      <div class="row text-center">
+        <div class="title">
+          <h2 class="text-white fs-1 fw-bold py-4">
+            Take advantage of our discounts up to <br />
+            40% off!
+          </h2>
+          <p class="fs-4" style="color: gray">Sign up today</p>
+          <form action="" class="mt-5 d-flex align-items-center justify-content-center">
+            <input type="text" class="form-control w-80 py-3 me-2" placeholder="Your e-mail address" />
+            <a href="" class="btn py-3 px-4 text-white fw-bold" style="background: #0775e2">Subscribe</a>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- subscribe -->
+
+  <!-- app mobie -->
+  <div class="mobie-app  border-bottom">
+    <div class="container">
+      <div class="row  d-flex justify-content-center">
+        <div class="col-lg-8 pt-5 col-md-12 px-5">
+          <div class="titled mx-5 ">
+            <h2 class="fs-2 fw-bold">
+              Download our app
+            </h2>
+            <p class="fs-2" style="color: gray">
+              to conveniently plan your travel
+            </p>
+            <ul class="list-unstyled">
+              <li class="text-decoration-none">
+                <svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" fill="#A6FF96" class="bi bi-check me-1"
+                  viewBox="0 0 16 16">
+                  <path
+                    d="M10.97 4.97a.75.75 0 0 1 1.07 1.05l-3.99 4.99a.75.75 0 0 1-1.08.02L4.324 8.384a.75.75 0 1 1 1.06-1.06l2.094 2.093 3.473-4.425z" />
+                </svg>
+                <span>The #1-rated travel app</span>
+              </li>
+              <li class="text-decoration-none">
+                <svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" fill="#A6FF96" class="bi bi-check me-1"
+                  viewBox="0 0 16 16">
+                  <path
+                    d="M10.97 4.97a.75.75 0 0 1 1.07 1.05l-3.99 4.99a.75.75 0 0 1-1.08.02L4.324 8.384a.75.75 0 1 1 1.06-1.06l2.094 2.093 3.473-4.425z" />
+                </svg>
+                <span>New daily deals at your fingertips</span>
+              </li>
+              <li class="text-decoration-none">
+                <svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" fill="#A6FF96" class="bi bi-check me-1"
+                  viewBox="0 0 16 16">
+                  <path
+                    d="M10.97 4.97a.75.75 0 0 1 1.07 1.05l-3.99 4.99a.75.75 0 0 1-1.08.02L4.324 8.384a.75.75 0 1 1 1.06-1.06l2.094 2.093 3.473-4.425z" />
+                </svg>
+                <span>All your bookings in one place</span>
+              </li>
+            </ul>
+            <div class="button">
+              <img src="img/sprite_footer.png" alt="">
+              <img src="img/sprite_footer (1).png" alt="">
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 pt-3 d-none d-lg-block">
+          <img src="img/mobie.png" class="mobie-app-img" alt="">
+        </div>
+      </div>
+    </div>
+
+    <!-- footer -->
+    <footer>
+      <div class="container">
+        <div class="row py-4 d-flex justify-content-center align-items-center" style="background-color: white;">
+          <div class="col-md-3 col-sm-5">
+            <div class="tittle fw-bold fs-5 py-1">
+              Plan your trip
+            </div>
+            <ul class="list-unstyled" style="color: #0775e2;">
+              <li>Cheap flights</li>
+              <li>City Break</li>
+              <li>Vacations</li>
+              <li>Stays</li>
+              <li>Flight+Hotel</li>
+              <li>Flight Search</li>
+              <li>Where can I fly?</li>
+            </ul>
+          </div>
+          <div class="col-md-3 col-sm-5">
+            <div class="tittle fw-bold fs-5 py-1">
+              Learn more
+            </div>
+            <ul class="list-unstyled" style="color: #0775e2;">
+              <li>Mobile App</li>
+              <li>Flight radar</li>
+              <li>Cheap airlines</li>
+              <li>National airlines</li>
+              <li>Airlines reviews </li>
+              <li> Airports</li>
+              <li> Airports reviews</li>
+            </ul>
+          </div>
+          <div class="col-md-3 col-sm-5">
+            <div class="tittle fw-bold fs-5 py-1">
+              Airlines
+            </div>
+            <ul class="list-unstyled" style="color: #0775e2;">
+              <li>Mobile App</li>
+              <li>Flight radar</li>
+              <li>Cheap airlines</li>
+              <li>National airlines</li>
+              <li>Airlines reviews </li>
+              <li> Airports</li>
+              <li> Airports reviews</li>
+            </ul>
+          </div>
+          <div class="col-md-3 col-sm-5">
+            <div class="tittle fw-bold fs-5 py-1">
+              About eSky
+            </div>
+            <ul class="list-unstyled" style="color: #0775e2;">
+              <li>Mobile App</li>
+              <li>Flight radar</li>
+              <li>Cheap airlines</li>
+              <li>National airlines</li>
+              <li>Airlines reviews </li>
+              <li> Airports</li>
+              <li> Airports reviews</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- footer -->
+
+    <!-- main footer -->
+    <div class="main-footer">
+      <div class="container-fluid" style="background: #1c2b39;">
+        <div class="row py-4">
+          <div class="col-md-12">
+            <div class="tittle fw-bold fs-5 py-1 text-white text-center">
+              Copyright &copy; 2021 eSky
+            </div>
+            
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- main footer -->
+    <!-- <script src="./controller/ListStudentController.js"></script>
+    <script src="./controller/AddStudentController.js"></script>
+    <script src="./controller/DetailStudentController.js"></script>
+    <script src="./controller/EditStudentController.js"></script> -->
+    <script src="controllers/listFlightController.js"></script>
+    <!-- <script src="controllers/addFlightController.js"></script>
+    <script src="controllers/detailFlightHotelController.js"></script>
+    <script src="controllers/updateFlightHotelController.js"></script> -->
+  <script>
+    let myApp = angular.module('appRoute', ['ngRoute']);
+    myApp.config(function($routeProvider){
+      $routeProvider
+      .when('/trang-chu', {
+        templateUrl: 'views/home.html',
+        // controller: listFlightController
+      })
+   .when('/flight-hotel', {
+        templateUrl: 'views/flightHotel.html',
+        controller: listFlightController
+      })
+    })
+  </script>
+  </body>
+</html>
